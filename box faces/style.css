@@ -1,0 +1,133 @@
+body {
+    background-color: #1b6ca8;
+    font-family: Arial, sans-serif;
+  }
+  
+  .body {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+  }
+  h2 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+  }
+  .box {
+    width: 180px;
+    height: 130px;
+    border: 10px solid #444;
+    border-radius: 5px;
+  }
+  .angry-box {
+    position: absolute;
+    top: 25%;
+    left: 70%;
+  }
+  .happy-box {
+    position: absolute;
+    top: 25%;
+    left: 38%;
+  }
+  .nhappy-box {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+  }
+  
+  .eye {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #444;
+  }
+  
+  /*  NOT HAPPY*/
+  .nhappy-left {
+    position: absolute;
+    top: 40px;
+    left: 45px;
+  }
+  .nhappy-right {
+    position: absolute;
+    top: 40px;
+    right: 45px;
+  }
+  .nhappy-mouth {
+    width: 45px;
+    height: 10px;
+    background-color: #444;
+    border-radius: 10px;
+    position: absolute;
+    transform: rotate(-20deg);
+    top: 80px;
+    left: 65px;
+  }
+  
+  /* HAPPY */
+  .happy-left {
+    position: absolute;
+    top: 40px;
+    left: 45px;
+  }
+  .happy-right {
+    position: absolute;
+    top: 40px;
+    right: 45px;
+  }
+  .happy-mouth {
+    width: 35px;
+    height: 35px;
+    border: 8px solid;
+    border-radius: 100%;
+    border-color: transparent transparent #444 #444;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 50px;
+    left: 65px;
+  }
+  
+  /* ANGRY */
+  .angry-left {
+    position: absolute;
+    top: 40px;
+    left: 45px;
+  }
+  .angry-right {
+    position: absolute;
+    top: 40px;
+    right: 45px;
+  }
+  .angry-mouth {
+    width: 35px;
+    height: 35px;
+    border: 8px solid;
+    border-radius: 100%;
+    border-color: #444 #444 transparent transparent;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 80px;
+    left: 65px;
+  }
+  .eye-brow {
+    width: 35px;
+    height: 8px;
+    background-color: #444;
+    margin: 5px;
+    border-radius: 5px;
+    transform: rotate(45deg);
+  }
+  .left-brow {
+    position: absolute;
+    top: 25px;
+    left: 40px;
+  }
+  .right-brow {
+    position: absolute;
+    top: 25px;
+    right: 40px;
+    transform: rotate(-45deg);
+  }
+  
